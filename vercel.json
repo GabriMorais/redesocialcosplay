@@ -6,7 +6,7 @@
  "api/**/*.php": {
       "runtime": "vercel-php@0.5.2"
     },
- "api/RedeSocialCosplay/**/*.php": {
+ "api/RedeSocialCosplay/Controllers/*.php": {
       "runtime": "vercel-php@0.5.2"
     }
   }
