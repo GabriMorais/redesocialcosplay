@@ -6,7 +6,7 @@ class Aplicacao
 
     private $controller;
     private function setAplicacao(){
-        $load = 'https://redesocialcosplay.000webhostapp.com/RedeSocialCosplay/Controllers/';
+        $load = 'https://redesocialcosplay.vercel.app/api/RedeSocialCosplay/Controllers/';
         echo $load.'teste' ;
         $url = explode('/',@$_GET['url'] ?? '');
         if ($url[0] == ''){
