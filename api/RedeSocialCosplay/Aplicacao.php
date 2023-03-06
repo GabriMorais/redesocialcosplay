@@ -24,15 +24,11 @@ class Aplicacao
             die();
         }   
     }
-
      
     public function  run(){
         $this->setAplicacao();
         $this->controller->index();
     }   
 }
-
-
-
 
 ?>
