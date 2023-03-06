@@ -17,13 +17,11 @@ class Aplicacao
         if (file_exists($load.'.php')) {
             $this->controller = new $load();
         } else {
+            echo $load ;
             include('Views/pages/404.php');
             die();
-        }
-        
-         
+        }   
     }
-
 
      
     public function  run(){
