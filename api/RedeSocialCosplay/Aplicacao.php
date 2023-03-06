@@ -17,7 +17,7 @@ class Aplicacao
         if (file_exists($load.'.php')) {
             $this->controller = new $load();
         } else {
-            echo $load ;
+            echo $load.'teste' ;
             include('Views/pages/404.php');
             die();
         }   
