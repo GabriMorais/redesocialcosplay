@@ -1,8 +1,12 @@
 {
-    "functions": {
-      "api/*": {
-        "runtime": "vercel-php@0.5.2"
-      }
-      
+  "builds": [
+    { "src": "/api/index.php", "use": "vercel-php@0.5.2" },
+    { "src": "/api/RedeSocialCosplay/**", "use": "vercel-php@0.5.2" }
+],
+"routes": [
+    {
+        "src": "/(.*)",
+        "dest": "/api/index.php"
     }
+  ]
 }
