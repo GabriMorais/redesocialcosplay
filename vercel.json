@@ -2,11 +2,5 @@
   "builds": [
     { "src": "/api/index.php", "use": "vercel-php@0.5.2" },
     { "src": "/api/RedeSocialCosplay/Aplicacao.php", "use": "vercel-php@0.5.2" }
-],
-"routes": [
-    {
-        "src": "/",
-        "dest": "/api/index.php"
-    }
-  ]
+]
 }
